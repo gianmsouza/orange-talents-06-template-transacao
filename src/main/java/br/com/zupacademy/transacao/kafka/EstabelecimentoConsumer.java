@@ -1,18 +1,18 @@
-package br.com.zupacademy.transacao.dto;
+package br.com.zupacademy.transacao.kafka;
 
-public class EstabelecimentoResponse {
+public class EstabelecimentoConsumer {
 	
 	private String nome;	
 	private String cidade;	
 	private String endereco;
 	
-	public EstabelecimentoResponse() {}
+	public EstabelecimentoConsumer() {}
 	
-	public EstabelecimentoResponse(String nome, String cidade, String endereco) {
+	public EstabelecimentoConsumer(String nome, String cidade, String endereco) {
 		this.nome = nome;
 		this.cidade = cidade;
 		this.endereco = endereco;	
-	}
+	}	
 
 	public String getNome() {
 		return nome;

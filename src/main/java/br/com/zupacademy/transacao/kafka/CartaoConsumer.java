@@ -1,13 +1,13 @@
-package br.com.zupacademy.transacao.dto;
+package br.com.zupacademy.transacao.kafka;
 
-public class CartaoResponse {
+public class CartaoConsumer {
 	
 	private String id;
 	private String email;
 
-	public CartaoResponse() {}
+	public CartaoConsumer() {}
 	
-	public CartaoResponse(String id, String email) {
+	public CartaoConsumer(String id, String email) {
 		this.id = id;
 		this.email = email;
 	}
